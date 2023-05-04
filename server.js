@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const jokeRoutes = require('./routes/jokes');
+const recipeRoutes = require('./routes/recipes');
 const app = express();
 const PORT = process.env.PORT || 5050;
 
@@ -8,18 +8,18 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  console.log(req.originalUrl);
+  // console.log(req.originalUrl);
   res.json({
-    message: 'Welcome to my API',
+    message: 'Welcome to my Recipe API',
     routes: [
       {
-        route: '/jokes',
-        description: 'get a collection of jokes',
+        route: '/recipes',
+        description: 'get a collection of recipes',
         method: 'get',
       },
       {
-        route: '/jokes/:id',
-        description: "get a single joke by it's id",
+        route: '/recipes/:id',
+        description: "get a single recipe by it's id",
         method: 'get',
       },
     ],
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 });
 
 // api routes
-app.use('/jokes', jokeRoutes);
+app.use('/recipes', recipeRoutes);
 
 app.listen(PORT, () => {
   console.log(`App running at http://localhost:${PORT}`);

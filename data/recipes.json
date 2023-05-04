@@ -1,8 +1,9 @@
 [
   {
     "id": "539168df-782b-4e52-aff6-e7bbab377c20",
-    "question": "How do you comfort a JavaScript bug?",
-    "answer": "You console it.",
+    "title": "Oat cookies",
+    "ingredients": ["oats", "butter"],
+    "instructions": "Steps for recipe",
     "posted": 1678219160803
   },
   {
