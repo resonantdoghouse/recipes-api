@@ -1,27 +1,23 @@
 import express from 'express';
 import fs from 'fs';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import checkAuth from '../middleware/checkAuth.js';
 const router = express.Router();
 
-// load video json file using the File System module `fs`
 function loadRecipeData() {
   return JSON.parse(fs.readFileSync('./data/recipes.json', 'utf8'));
 }
 
-// get all recipes
-router.get('/', (req, res) => {
+router.get('/', (_req, res) => {
   res.json(loadRecipeData());
 });
 
-// get random recipe
-router.get('/random', (req, res) => {
+router.get('/random', (_req, res) => {
   const recipes = loadRecipeData();
   const recipe = recipes[Math.floor(Math.random() * recipes.length)];
   res.json(recipe);
 });
 
-// get single recipe by id
 router.get('/:id', (req, res) => {
   const recipes = loadRecipeData();
   const filteredRecipes = recipes.filter(
