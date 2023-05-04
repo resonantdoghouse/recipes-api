@@ -1,0 +1,122 @@
+[
+  {
+    "id": "539168df-782b-4e52-aff6-e7bbab377c20",
+    "question": "How do you comfort a JavaScript bug?",
+    "answer": "You console it.",
+    "posted": 1678219160803
+  },
+  {
+    "id": "4483389b-9286-4308-83dc-52ab5853f549",
+    "question": "Why did the programmer quit their job?",
+    "answer": "Because they didn't get arrays.",
+    "posted": 1678219169696
+  },
+  {
+    "id": "6321b2a1-aeca-49cb-ba18-94b2c394c8c6",
+    "question": "Why did the hungry dev multiply a string by an integer?",
+    "answer": "They wanted some NaN bread.",
+    "posted": 1678219258919
+  },
+  {
+    "id": "03c40267-b17a-4941-b1af-0cb4f5ea0909",
+    "question": "How did the web developer hurt Comic Sans feelings?",
+    "answer": "Once he saw the font he quickly changed it to Open Sans and exclaimed 'In your @font-face!'",
+    "posted": 1675454658117
+  },
+  {
+    "id": "04a4961b-973d-4a9d-af87-452c0687a3a2",
+    "question": "JavaScript is a lot like English;",
+    "answer": "No one knows how to use semicolons properly",
+    "posted": 1676491463988
+  },
+  {
+    "id": "1ef82dc3-1ed6-4c01-bd6d-6d38265077f9",
+    "question": "Why do JavaScripters wear glasses?",
+    "answer": "Because they don't C#",
+    "posted": 1678219478178
+  },
+  {
+    "id": "e8217583-a966-4cf5-b1b0-67b36bfad5b0",
+    "question": "What do you do with a JavaScript function losing its scope?",
+    "answer": "You give it closure",
+    "posted": 1677701070123
+  },
+  {
+    "id": "e8511ba8-70d7-425f-a28a-6c53e77438ea",
+    "question": "What is a programmer's favourite hangout place?",
+    "answer": "Foo Bar",
+    "posted": 1678219294737
+  },
+  {
+    "id": "fc772612-d096-457d-9333-bde3140a242d",
+    "question": "0 is false and 1 is true, right?",
+    "answer": "1",
+    "posted": 1677787366350
+  },
+  {
+    "id": "68ca3b84-ee30-442f-a0c6-8e9c0b1bfcff",
+    "question": "How many programmers does it take to change a light bulb?",
+    "answer": "None, that's a hardware problem",
+    "posted": 1678046577334
+  },
+  {
+    "id": "d1dabe63-6665-477d-a459-9bc31648ac91",
+    "question": "What do cats and programmers have in common?",
+    "answer": "When either one is unusually happy and excited, an appropriate question would be, 'did you find a bug?'",
+    "posted": 1677096199045
+  },
+  {
+    "id": "5004afa4-921d-4190-9167-81f5ab4495e7",
+    "question": "What's the best thing thing about UDP jokes?",
+    "answer": "I don't care if you get them",
+    "posted": 1677960189426
+  },
+  {
+    "id": "a8b01b11-ef3f-4a57-b0a9-804132d3e415",
+    "question": "Where did the parallel function wash its hands?",
+    "answer": "Async",
+    "posted": 1676491413372
+  },
+  {
+    "id": "21c4fb0b-e962-4f9c-8504-4a880a2e24ee",
+    "question": "How do programming shepherds count their flock?",
+    "answer": "With lambda functions",
+    "posted": 1677701022457
+  },
+  {
+    "id": "6a0f5913-fc81-4903-9b17-a386e3b99363",
+    "question": "What did JavaScript call his son?",
+    "answer": "JSON",
+    "posted": 1676145841643
+  },
+  {
+    "id": "f9434522-67e8-42b3-9abf-4407deb4e957",
+    "question": "How does a sysadmin keep a fire going?",
+    "answer": "They rotate the logs",
+    "posted": 1676145833790
+  },
+  {
+    "id": "fbe6e842-2c30-4048-8254-e8746eff3afe",
+    "question": "Where did the API go to eat?",
+    "answer": "To the RESTaurant",
+    "posted": 1678219268242
+  },
+  {
+    "id": "6ea5ba04-a846-4aa1-875e-c79b1c1dbb5b",
+    "question": "Whats the object-oriented way to become wealthy?",
+    "answer": "Inheritance",
+    "posted": 1678217897090
+  },
+  {
+    "id": "8a40afe5-ca6a-4ac2-b5e6-406e9bb9b954",
+    "question": "What did the spider do on the computer?",
+    "answer": "Made a website!",
+    "posted": 1678217988399
+  },
+  {
+    "id": "ec3a3dfc-8645-4623-aeb7-f7130e51bbf9",
+    "question": "What did the proud React component say to its child?",
+    "answer": "I've got to give you props",
+    "posted": 1678218020914
+  }
+]
