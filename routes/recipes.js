@@ -1,7 +1,7 @@
-const express = require('express');
-const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
-const checkAuth = require('../middleware/checkAuth');
+import express from 'express';
+import fs from 'fs';
+import { v4 as uuidv4 } from 'uuid';
+import checkAuth from '../middleware/checkAuth.js';
 const router = express.Router();
 
 // load video json file using the File System module `fs`
@@ -99,4 +99,4 @@ router.delete('/:id', checkAuth, (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

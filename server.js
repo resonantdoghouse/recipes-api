@@ -1,14 +1,13 @@
-const express = require('express');
-const cors = require('cors');
-const recipeRoutes = require('./routes/recipes');
+import express from 'express';
+import cors from 'cors';
+import recipeRoutes from './routes/recipes.js';
 const app = express();
 const PORT = process.env.PORT || 5050;
 
 app.use(express.json());
 app.use(cors());
 
-app.get('/', (req, res) => {
-  // console.log(req.originalUrl);
+app.get('/', (_req, res) => {
   res.json({
     message: 'Welcome to my Recipe API',
     routes: [
@@ -24,8 +23,13 @@ app.get('/', (req, res) => {
       },
       {
         route: '/recipes/random',
-        description: "get a random recipe",
+        description: 'get a random recipe',
         method: 'get',
+      },
+      {
+        route: '/recipes',
+        description: 'post a new recipe',
+        method: 'post',
       },
     ],
   });
