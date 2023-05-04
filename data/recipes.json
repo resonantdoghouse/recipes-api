@@ -1,123 +1,152 @@
 [
   {
-    "id": "539168df-782b-4e52-aff6-e7bbab377c20",
-    "title": "Oat cookies",
-    "ingredients": ["oats", "butter"],
-    "instructions": "Steps for recipe",
-    "posted": 1678219160803
+    "id": 1,
+    "name": "Lentil Soup",
+    "postedDate": "2023-05-01",
+    "ingredients": [
+      "1 cup green or brown lentils",
+      "1 onion, chopped",
+      "2 carrots, chopped",
+      "2 celery stalks, chopped",
+      "4 cups vegetable broth",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1 bay leaf",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Rinse lentils under cold water.",
+      "In a large pot, sauté onion, carrots, and celery until softened.",
+      "Add lentils, vegetable broth, cumin, paprika, bay leaf, salt, and pepper.",
+      "Bring to a boil, then reduce heat and simmer for 30-40 minutes or until lentils are tender.",
+      "Remove bay leaf and serve."
+    ]
   },
   {
-    "id": "4483389b-9286-4308-83dc-52ab5853f549",
-    "question": "Why did the programmer quit their job?",
-    "answer": "Because they didn't get arrays.",
-    "posted": 1678219169696
+    "id": 2,
+    "name": "Quinoa Stuffed Peppers",
+    "postedDate": "2023-05-02",
+    "ingredients": [
+      "4 bell peppers, any color",
+      "1 cup cooked quinoa",
+      "1 can black beans, drained and rinsed",
+      "1 cup corn",
+      "1 onion, chopped",
+      "1 clove garlic, minced",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "Salt and pepper to taste",
+      "1 cup shredded cheese (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Cut the tops off the peppers and remove seeds.",
+      "In a large bowl, mix quinoa, black beans, corn, onion, garlic, cumin, chili powder, salt, and pepper.",
+      "Stuff each pepper with the quinoa mixture.",
+      "Place stuffed peppers in a baking dish and cover with foil.",
+      "Bake for 30 minutes, then remove foil.",
+      "Top with cheese if desired and bake for an additional 10 minutes or until cheese is melted.",
+      "Serve warm."
+    ]
   },
   {
-    "id": "6321b2a1-aeca-49cb-ba18-94b2c394c8c6",
-    "question": "Why did the hungry dev multiply a string by an integer?",
-    "answer": "They wanted some NaN bread.",
-    "posted": 1678219258919
+    "id": 3,
+    "name": "Vegan Chickpea Curry",
+    "postedDate": "2023-05-03",
+    "ingredients": [
+      "1 can chickpeas, drained and rinsed",
+      "1 can diced tomatoes",
+      "1 can coconut milk",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp ginger, minced",
+      "1 tbsp curry powder",
+      "1 tsp turmeric",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "Salt and pepper to taste",
+      "2 cups spinach"
+    ],
+    "instructions": [
+      "In a large pot, sauté onion, garlic, and ginger until softened.",
+      "Add curry powder, turmeric, cumin, and paprika, and cook for 1 minute.",
+      "Add chickpeas, diced tomatoes, and coconut milk.",
+      "Bring to a boil, then reduce heat and simmer for 20-25 minutes.",
+      "Add spinach and cook until wilted.",
+      "Season with salt and pepper to taste.",
+      "Serve over rice or with naan bread."
+    ]
   },
   {
-    "id": "03c40267-b17a-4941-b1af-0cb4f5ea0909",
-    "question": "How did the web developer hurt Comic Sans feelings?",
-    "answer": "Once he saw the font he quickly changed it to Open Sans and exclaimed 'In your @font-face!'",
-    "posted": 1675454658117
+    "id": 4,
+    "name": "Cauliflower Fried Rice",
+    "postedDate": "2023-05-05",
+    "ingredients": [
+      "1 large head cauliflower, riced",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 cup frozen peas and carrots",
+      "2 eggs, beaten (optional)",
+      "3 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "Green onions for garnish"
+    ],
+    "instructions": [
+      "Heat vegetable oil in a large skillet or wok over medium heat.",
+      "Add onion and garlic, and cook until softened.",
+      "Add riced cauliflower and cook for 3-4 minutes, stirring occasionally.",
+      "Add peas and carrots, and cook until heated through.",
+      "If using eggs, push the cauliflower mixture to one side of the skillet and pour beaten eggs on the other side. Scramble the eggs and mix them with the cauliflower.",
+      "Stir in soy sauce and sesame oil.",
+      "Garnish with green onions and serve."
+    ]
   },
   {
-    "id": "04a4961b-973d-4a9d-af87-452c0687a3a2",
-    "question": "JavaScript is a lot like English;",
-    "answer": "No one knows how to use semicolons properly",
-    "posted": 1676491463988
+    "id": 5,
+    "name": "Vegetarian Fajitas",
+    "postedDate": "2023-05-06",
+    "ingredients": [
+      "2 bell peppers, sliced",
+      "1 red onion, sliced",
+      "1 zucchini, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp chili powder",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp garlic powder",
+      "Salt and pepper to taste",
+      "8 small flour tortillas",
+      "Optional toppings: sour cream, salsa, guacamole, shredded cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss bell peppers, onion, and zucchini with olive oil, chili powder, cumin, paprika, garlic powder, salt, and pepper.",
+      "Spread vegetables in a single layer on a baking sheet.",
+      "Roast for 20-25 minutes or until tender.",
+      "Serve with warm tortillas and desired toppings."
+    ]
   },
   {
-    "id": "1ef82dc3-1ed6-4c01-bd6d-6d38265077f9",
-    "question": "Why do JavaScripters wear glasses?",
-    "answer": "Because they don't C#",
-    "posted": 1678219478178
-  },
-  {
-    "id": "e8217583-a966-4cf5-b1b0-67b36bfad5b0",
-    "question": "What do you do with a JavaScript function losing its scope?",
-    "answer": "You give it closure",
-    "posted": 1677701070123
-  },
-  {
-    "id": "e8511ba8-70d7-425f-a28a-6c53e77438ea",
-    "question": "What is a programmer's favourite hangout place?",
-    "answer": "Foo Bar",
-    "posted": 1678219294737
-  },
-  {
-    "id": "fc772612-d096-457d-9333-bde3140a242d",
-    "question": "0 is false and 1 is true, right?",
-    "answer": "1",
-    "posted": 1677787366350
-  },
-  {
-    "id": "68ca3b84-ee30-442f-a0c6-8e9c0b1bfcff",
-    "question": "How many programmers does it take to change a light bulb?",
-    "answer": "None, that's a hardware problem",
-    "posted": 1678046577334
-  },
-  {
-    "id": "d1dabe63-6665-477d-a459-9bc31648ac91",
-    "question": "What do cats and programmers have in common?",
-    "answer": "When either one is unusually happy and excited, an appropriate question would be, 'did you find a bug?'",
-    "posted": 1677096199045
-  },
-  {
-    "id": "5004afa4-921d-4190-9167-81f5ab4495e7",
-    "question": "What's the best thing thing about UDP jokes?",
-    "answer": "I don't care if you get them",
-    "posted": 1677960189426
-  },
-  {
-    "id": "a8b01b11-ef3f-4a57-b0a9-804132d3e415",
-    "question": "Where did the parallel function wash its hands?",
-    "answer": "Async",
-    "posted": 1676491413372
-  },
-  {
-    "id": "21c4fb0b-e962-4f9c-8504-4a880a2e24ee",
-    "question": "How do programming shepherds count their flock?",
-    "answer": "With lambda functions",
-    "posted": 1677701022457
-  },
-  {
-    "id": "6a0f5913-fc81-4903-9b17-a386e3b99363",
-    "question": "What did JavaScript call his son?",
-    "answer": "JSON",
-    "posted": 1676145841643
-  },
-  {
-    "id": "f9434522-67e8-42b3-9abf-4407deb4e957",
-    "question": "How does a sysadmin keep a fire going?",
-    "answer": "They rotate the logs",
-    "posted": 1676145833790
-  },
-  {
-    "id": "fbe6e842-2c30-4048-8254-e8746eff3afe",
-    "question": "Where did the API go to eat?",
-    "answer": "To the RESTaurant",
-    "posted": 1678219268242
-  },
-  {
-    "id": "6ea5ba04-a846-4aa1-875e-c79b1c1dbb5b",
-    "question": "Whats the object-oriented way to become wealthy?",
-    "answer": "Inheritance",
-    "posted": 1678217897090
-  },
-  {
-    "id": "8a40afe5-ca6a-4ac2-b5e6-406e9bb9b954",
-    "question": "What did the spider do on the computer?",
-    "answer": "Made a website!",
-    "posted": 1678217988399
-  },
-  {
-    "id": "ec3a3dfc-8645-4623-aeb7-f7130e51bbf9",
-    "question": "What did the proud React component say to its child?",
-    "answer": "I've got to give you props",
-    "posted": 1678218020914
+    "id": 6,
+    "name": "Vegan Pesto Pasta",
+    "postedDate": "2023-05-07",
+    "ingredients": [
+      "12 oz pasta of choice",
+      "2 cups fresh basil leaves",
+      "1/2 cup pine nuts",
+      "2 cloves garlic",
+      "1/2 cup olive oil",
+      "1/4 cup nutritional yeast",
+      "Salt and pepper to taste",
+      "1 cup cherry tomatoes, halved"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "In a food processor, combine basil, pine nuts, garlic, olive oil, nutritional yeast, salt, and pepper. Process until smooth.",
+      "Drain pasta and return to pot.",
+      "Stir in pesto sauce and cherry tomatoes.",
+      "Serve warm or cold."
+    ]
   }
 ]
