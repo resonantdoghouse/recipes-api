@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 // get random recipe
 router.get('/random', (req, res) => {
   const recipes = loadRecipeData();
-  const recipe = jokes[Math.floor(Math.random() * recipes.length)];
+  const recipe = recipes[Math.floor(Math.random() * recipes.length)];
   res.json(recipe);
 });
 
@@ -25,7 +25,7 @@ router.get('/random', (req, res) => {
 router.get('/:id', (req, res) => {
   const recipes = loadRecipeData();
   const filteredRecipes = recipes.filter(
-    (recipe) => recipe.id === req.params.id
+    (recipe) => recipe.id === Number(req.params.id)
   );
   if (filteredRecipes.length === 0) {
     res
@@ -84,7 +84,9 @@ router.delete('/:id', checkAuth, (req, res) => {
     res.status(400).json({ message: 'Error recipe not deleted' });
   } else {
     const recipes = loadRecipeData();
-    const recipeIndex = recipes.findIndex((recipe) => joke.id === req.params.id);
+    const recipeIndex = recipes.findIndex(
+      (recipe) => joke.id === req.params.id
+    );
     if (recipeIndex === -1) {
       res
         .status(404)

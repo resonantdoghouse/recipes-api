@@ -22,6 +22,11 @@ app.get('/', (req, res) => {
         description: "get a single recipe by it's id",
         method: 'get',
       },
+      {
+        route: '/recipes/random',
+        description: "get a random recipe",
+        method: 'get',
+      },
     ],
   });
 });
