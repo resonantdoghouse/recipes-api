@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(cors());
 
 // api routes
-app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 app.use('/recipes', recipeRoutes);
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 app.listen(PORT, () => {
   console.log(`App running at http://localhost:${PORT}`);
