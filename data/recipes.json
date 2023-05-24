@@ -251,5 +251,56 @@
       "Season with salt and pepper to taste.",
       "Garnish with sesame seeds before serving."
     ]
+  },
+  {
+    "id": 11,
+    "name": "Spicy Chicken Tacos",
+    "postedDate": "2023-05-24",
+    "ingredients": [
+      "500g chicken breast, cut into strips",
+      "2 tbsp olive oil",
+      "1 onion, sliced",
+      "2 cloves garlic, minced",
+      "1 jalapeno, sliced",
+      "1 tbsp chili powder",
+      "1 tsp cumin",
+      "1/2 tsp cayenne pepper",
+      "Salt and pepper to taste",
+      "8 small tortillas",
+      "1 cup shredded lettuce",
+      "1 tomato, diced",
+      "1/2 cup shredded cheddar cheese",
+      "Sour cream and salsa for serving"
+    ],
+    "instructions": [
+      "Heat the oil in a large pan over medium heat. Add the chicken and cook until browned and no longer pink inside. Remove from the pan and set aside.",
+      "In the same pan, add the onion, garlic, and jalapeno, and sauté until softened.",
+      "Return the chicken to the pan. Add the chili powder, cumin, and cayenne pepper, and stir to combine. Cook for another 2 minutes.",
+      "Season with salt and pepper to taste.",
+      "To assemble the tacos, place a scoop of the chicken mixture on a tortilla. Top with lettuce, tomato, and cheddar cheese. Repeat with the remaining tortillas.",
+      "Serve the tacos with sour cream and salsa on the side."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Traditional Idli",
+    "postedDate": "2023-05-24",
+    "ingredients": [
+      "2 cups idli rice or parboiled rice",
+      "1 cup urad dal (skinned black lentils)",
+      "1/2 tsp fenugreek seeds",
+      "Salt to taste",
+      "Water as needed",
+      "Idli steamer or pressure cooker without whistle"
+    ],
+    "instructions": [
+      "Rinse the idli rice and urad dal separately under running water until the water runs clear. Soak the rice and dal along with fenugreek seeds in separate bowls for 5-6 hours.",
+      "After soaking, grind the urad dal with a little water until it forms a smooth and fluffy batter. Transfer to a large bowl.",
+      "Now grind the rice with a little water until it forms a slightly grainy batter. Combine this with the urad dal batter in the large bowl.",
+      "Add salt to the mixture and mix well. Let the batter ferment in a warm place for 8-10 hours or overnight. The batter should rise and increase in volume.",
+      "When you're ready to cook, grease the idli moulds with a little oil. Fill each mould with the fermented batter.",
+      "Place the filled moulds in a steamer or pressure cooker (without the whistle) containing a little water at the bottom. Steam for 10-12 minutes or until a toothpick inserted into the idli comes out clean.",
+      "Remove the idli from the moulds using a spoon or a knife. Serve hot with sambar and coconut chutney."
+    ]
   }
 ]
