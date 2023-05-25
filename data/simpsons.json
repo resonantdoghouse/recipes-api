@@ -1,0 +1,60 @@
+[
+  {
+    "id": "c259ab43-af4e-4b8b-9c36-2a1c73be43a1",
+    "first_name": "Marge",
+    "last_name": "Simpson",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png",
+    "catchphrases": ["Hrmmm….", "Now it's Marge's time to shine!", "Oh, Homie!"]
+  },
+  {
+    "id": "ea4a7128-17bb-47f4-8054-3453a8bec1b1",
+    "first_name": "Homer",
+    "last_name": "Simpson",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+    "catchphrases": [
+      "D'oh!",
+      "Woo-hoo!",
+      "Oh, Homie!",
+      "Mmm... (food)... *Drooling*",
+      "Why you little...!"
+    ]
+  },
+  {
+    "id": "362154c4-a455-4bf6-af80-3de86dfcae10",
+    "first_name": "Bart",
+    "last_name": "Simpson",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png",
+    "catchphrases": [
+      "Ay Caramba!",
+      "Eat my shorts!",
+      "I didn't do it!",
+      "Don't have a cow, man."
+    ]
+  },
+  {
+    "id": "15917c36-6c4b-4b3a-9010-6222a4a2faa1",
+    "first_name": "Lisa",
+    "last_name": "Simpson",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png",
+    "catchphrases": [
+      "Bart!",
+      "If anyone wants me, I'll be in my room.",
+      "Quit it, Bart!",
+      "BAAAAART!!",
+      "The truth must be told.",
+      "I hope these are recyclable."
+    ]
+  },
+  {
+    "id": "e5649a43-1482-4baa-b15d-9490c7c7a0e2",
+    "first_name": "Maggie",
+    "last_name": "Simpson",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png",
+    "catchphrases": [
+      "*suck suck *",
+      "Daddy.",
+      "Daddily Doodily!",
+      "Ja, ja!"
+    ]
+  }
+]
