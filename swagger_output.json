@@ -5,9 +5,10 @@
     "description": "A practice REST API with mouth-watering recipes?",
     "version": "1.0.0"
   },
+  "host": "localhost:5050",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/recipes/": {

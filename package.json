@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js --ignore  ./data/*.json",
+    "dev": "NODE_ENV=development node swagger && nodemon server.js --ignore  ./data/*.json",
     "build": "node swagger",
     "swagger-autogen": "node swagger.js"
   },
