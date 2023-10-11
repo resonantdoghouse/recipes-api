@@ -11,7 +11,7 @@
     "http"
   ],
   "paths": {
-    "/recipes/": {
+    "/register": {
       "get": {
         "description": "",
         "parameters": [],
@@ -22,13 +22,42 @@
         }
       }
     },
-    "/recipes/random": {
+    "/recipes/": {
       "get": {
         "description": "",
-        "parameters": [],
+        "parameters": [
+          {
+            "name": "api_key",
+            "in": "query",
+            "type": "string"
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/recipes/random": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "api_key",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
           }
         }
       }
@@ -42,11 +71,19 @@
             "in": "path",
             "required": true,
             "type": "string"
+          },
+          {
+            "name": "api_key",
+            "in": "query",
+            "type": "string"
           }
         ],
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "description": "Not Found"

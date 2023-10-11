@@ -1,12 +1,13 @@
 import express from "express";
 import fs from "fs";
+import { checkApiKey } from "../middleware/middleware.js";
 const router = express.Router();
 
 function loadRecipeData() {
   return JSON.parse(fs.readFileSync("./data/recipes.json", "utf8"));
 }
 
-router.get("/", (_req, res) => {
+router.get("/", checkApiKey, (_req, res) => {
   const recipes = loadRecipeData();
 
   res.json(
@@ -20,13 +21,13 @@ router.get("/", (_req, res) => {
   );
 });
 
-router.get("/random", (_req, res) => {
+router.get("/random", checkApiKey, (_req, res) => {
   const recipes = loadRecipeData();
   const recipe = recipes[Math.floor(Math.random() * recipes.length)];
   res.json(recipe);
 });
 
-router.get("/:id", (req, res) => {
+router.get("/:id", checkApiKey, (req, res) => {
   const recipes = loadRecipeData();
   const filteredRecipes = recipes.filter(
     (recipe) => recipe.id === Number(req.params.id)
