@@ -1,22 +1,32 @@
-import express from 'express';
-import fs from 'fs';
+import express from "express";
+import fs from "fs";
 const router = express.Router();
 
 function loadRecipeData() {
-  return JSON.parse(fs.readFileSync('./data/recipes.json', 'utf8'));
+  return JSON.parse(fs.readFileSync("./data/recipes.json", "utf8"));
 }
 
-router.get('/', (_req, res) => {
-  res.json(loadRecipeData());
+router.get("/", (_req, res) => {
+  const recipes = loadRecipeData();
+
+  res.json(
+    recipes.map((recipe) => {
+      return {
+        id: recipe.id,
+        name: recipe.name,
+        postedDate: recipe.postedDate,
+      };
+    })
+  );
 });
 
-router.get('/random', (_req, res) => {
+router.get("/random", (_req, res) => {
   const recipes = loadRecipeData();
   const recipe = recipes[Math.floor(Math.random() * recipes.length)];
   res.json(recipe);
 });
 
-router.get('/:id', (req, res) => {
+router.get("/:id", (req, res) => {
   const recipes = loadRecipeData();
   const filteredRecipes = recipes.filter(
     (recipe) => recipe.id === Number(req.params.id)
