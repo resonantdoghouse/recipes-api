@@ -41,4 +41,25 @@ router.get("/:id", checkApiKey, (req, res) => {
   }
 });
 
+router.post("/", checkApiKey, (req, res) => {
+  if (!req.body.name || !req.body.ingredients || !req.body.instructions) {
+    res.json({
+      message:
+        "Please provide the following: name, ingredients and instructions",
+    });
+  } else {
+    const recipes = loadRecipeData();
+    recipes.push({
+      id: recipes.length + 1,
+      name: req.body.name,
+      postedDate: Date.now(),
+      ingredients: req.body.ingredients,
+      instructions: req.body.instructions,
+    });
+
+    fs.writeFileSync("./data/recipes.json", JSON.stringify(recipes));
+    res.json(recipes);
+  }
+});
+
 export default router;
