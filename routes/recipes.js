@@ -42,6 +42,15 @@ router.get("/:id", checkApiKey, (req, res) => {
 });
 
 router.post("/", checkApiKey, (req, res) => {
+  /*  #swagger.parameters['obj'] = {
+                in: 'body',
+                description: 'Add a new recipe',
+                schema: {
+                    $name: 'Recipe Name',
+                    $ingredients: ['ingredient 1', 'ingredient 2'],
+                    $instructions: ['step 1', 'step 2']
+                }
+        } */
   if (!req.body.name || !req.body.ingredients || !req.body.instructions) {
     res.json({
       message:

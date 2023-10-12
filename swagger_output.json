@@ -50,21 +50,42 @@
             "type": "string"
           },
           {
-            "name": "body",
+            "name": "obj",
             "in": "body",
+            "description": "Add a new recipe",
             "schema": {
               "type": "object",
               "properties": {
                 "name": {
-                  "example": "any"
+                  "type": "string",
+                  "example": "Recipe Name"
                 },
                 "ingredients": {
-                  "example": "any"
+                  "type": "array",
+                  "example": [
+                    "ingredient 1",
+                    "ingredient 2"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "instructions": {
-                  "example": "any"
+                  "type": "array",
+                  "example": [
+                    "step 1",
+                    "step 2"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
                 }
-              }
+              },
+              "required": [
+                "name",
+                "ingredients",
+                "instructions"
+              ]
             }
           }
         ],
