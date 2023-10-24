@@ -302,5 +302,120 @@
       "Place the filled moulds in a steamer or pressure cooker (without the whistle) containing a little water at the bottom. Steam for 10-12 minutes or until a toothpick inserted into the idli comes out clean.",
       "Remove the idli from the moulds using a spoon or a knife. Serve hot with sambar and coconut chutney."
     ]
+  },
+  {
+    "id": 13,
+    "name": "Very Spicy Chicken Curry",
+    "postedDate": "2023-10-24",
+    "ingredients": [
+      "500g boneless chicken, cut into small pieces",
+      "2 onions, finely chopped",
+      "3 tomatoes, chopped",
+      "3 green chilies, slit",
+      "1/4 cup yogurt",
+      "2 tsp red chili powder",
+      "1 tsp turmeric powder",
+      "1 tsp garam masala",
+      "1 tsp cumin seeds",
+      "4-5 cloves garlic, minced",
+      "1-inch piece of ginger, minced",
+      "Salt to taste",
+      "2 tbsp vegetable oil",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat vegetable oil in a pan over medium heat. Add cumin seeds and let them splutter.",
+      "Add chopped onions and sauté until they turn golden brown.",
+      "Add minced garlic, ginger, and green chilies. Sauté for a few minutes until the raw smell disappears.",
+      "Add red chili powder, turmeric, and salt. Cook the spices for a minute or two.",
+      "Add chopped tomatoes and cook until they turn soft and the oil starts to separate from the masala.",
+      "Stir in the chicken pieces and cook until they turn white and are sealed.",
+      "Whisk yogurt and add it to the chicken. Cook for a few minutes until the oil separates from the yogurt.",
+      "Add garam masala and cook for another 5 minutes, stirring occasionally.",
+      "Garnish with fresh cilantro and serve hot with steamed rice or naan."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Scrambled Eggs with Spinach",
+    "postedDate": "2023-10-24",
+    "ingredients": [
+      "4 large eggs",
+      "1 cup fresh spinach, chopped",
+      "1/4 cup milk",
+      "2 tbsp butter",
+      "Salt and pepper to taste",
+      "Grated cheese (optional)",
+      "Sliced green onions for garnish (optional)"
+    ],
+    "instructions": [
+      "In a bowl, beat the eggs and milk together until well combined. Season with salt and pepper.",
+      "Heat a non-stick skillet over medium heat and melt the butter.",
+      "Add the chopped spinach to the skillet and sauté until it wilts and becomes tender.",
+      "Pour the beaten egg mixture over the spinach and let it cook without stirring for a moment until the edges begin to set.",
+      "Gently stir the eggs with a spatula, continuing to cook until they reach your desired level of doneness.",
+      "If desired, sprinkle grated cheese over the eggs and let it melt.",
+      "Serve the scrambled eggs hot, garnished with sliced green onions, and enjoy your nutritious breakfast!"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Spicy Vegetarian Szechuan Noodles",
+    "postedDate": "2023-10-24",
+    "ingredients": [
+      "200g dry egg noodles or udon noodles",
+      "2 tbsp vegetable oil",
+      "1/2 cup sliced bell peppers (red, green, or both)",
+      "1/2 cup sliced carrots",
+      "1/2 cup sliced broccoli florets",
+      "1/2 cup sliced snap peas",
+      "2 cloves garlic, minced",
+      "1-inch piece of ginger, minced",
+      "2-3 tbsp Szechuan sauce",
+      "1 tbsp soy sauce",
+      "1 tsp red chili flakes (adjust to your spice level)",
+      "Salt to taste",
+      "Fresh cilantro for garnish (optional)"
+    ],
+    "instructions": [
+      "Cook the noodles according to the package instructions. Drain and set aside.",
+      "In a large pan or wok, heat vegetable oil over medium-high heat.",
+      "Add minced garlic and ginger, and sauté for a minute until fragrant.",
+      "Add sliced vegetables (bell peppers, carrots, broccoli, and snap peas) and stir-fry for about 5-7 minutes until they start to become tender but remain crisp.",
+      "Add the cooked noodles to the pan and toss with the vegetables.",
+      "Stir in the Szechuan sauce, soy sauce, and red chili flakes. Adjust the spice level according to your preference.",
+      "Cook for an additional 2-3 minutes, ensuring the noodles are well-coated with the sauce and everything is heated through.",
+      "Taste and adjust salt if needed. If desired, garnish with fresh cilantro.",
+      "Serve hot and enjoy the fiery flavor of these spicy Szechuan noodles!"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Jamaican Jerk Chicken",
+    "postedDate": "2023-10-24",
+    "ingredients": [
+      "4 bone-in chicken thighs or 2 chicken breasts",
+      "4 green onions, chopped",
+      "4 cloves garlic, minced",
+      "2 Scotch bonnet peppers or habanero peppers, seeds removed and minced (adjust to your spice level)",
+      "1/4 cup soy sauce",
+      "2 tbsp vegetable oil",
+      "2 tbsp brown sugar",
+      "1 tbsp ground allspice",
+      "1 tsp dried thyme",
+      "1 tsp ground cinnamon",
+      "1/2 tsp ground nutmeg",
+      "Salt and black pepper to taste",
+      "1 lime, juiced",
+      "1/4 cup orange juice"
+    ],
+    "instructions": [
+      "In a food processor, combine green onions, garlic, minced peppers, soy sauce, vegetable oil, brown sugar, allspice, thyme, cinnamon, nutmeg, salt, and black pepper. Blend until you have a smooth marinade.",
+      "Place the chicken in a large resealable plastic bag or a shallow dish. Pour the marinade over the chicken, making sure it's well coated. Seal the bag or cover the dish and refrigerate for at least 2 hours, or overnight for best results.",
+      "Preheat a grill to medium-high heat. Oil the grill grates to prevent sticking.",
+      "Remove the chicken from the marinade, allowing any excess to drip off, and grill the chicken for about 6-8 minutes per side, or until fully cooked and juices run clear. Baste with the leftover marinade while grilling.",
+      "In a small saucepan, heat the lime juice and orange juice over low heat until it reduces and thickens slightly.",
+      "Serve the jerk chicken hot with the citrus reduction drizzled over it. You can also serve it with rice and peas or your favorite side dishes."
+    ]
   }
 ]
