@@ -1,7 +1,7 @@
 import express from "express";
 import fs from "fs";
 import { checkApiKey } from "../middleware/middleware.js";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 const router = express.Router();
 
 function loadRecipeData() {
@@ -31,7 +31,7 @@ router.get("/random", checkApiKey, (_req, res) => {
 router.get("/:id", checkApiKey, (req, res) => {
   const recipes = loadRecipeData();
   const filteredRecipes = recipes.filter(
-    (recipe) => recipe.id === Number(req.params.id)
+    (recipe) => recipe.id === req.params.id
   );
   if (filteredRecipes.length === 0) {
     res
