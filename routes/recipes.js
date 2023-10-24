@@ -1,6 +1,7 @@
 import express from "express";
 import fs from "fs";
 import { checkApiKey } from "../middleware/middleware.js";
+const { v4: uuidv4 } = require("uuid");
 const router = express.Router();
 
 function loadRecipeData() {
@@ -59,7 +60,7 @@ router.post("/", checkApiKey, (req, res) => {
   } else {
     const recipes = loadRecipeData();
     recipes.push({
-      id: recipes.length + 1,
+      id: uuidv4(),
       name: req.body.name,
       postedDate: Date.now(),
       ingredients: req.body.ingredients,
