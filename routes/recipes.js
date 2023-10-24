@@ -1,7 +1,7 @@
 import express from "express";
 import fs from "fs";
 import { checkApiKey } from "../middleware/middleware.js";
-const { v4: uuidv4 } = require("uuid");
+import { v4 as uuidv4 } from 'uuid';
 const router = express.Router();
 
 function loadRecipeData() {
