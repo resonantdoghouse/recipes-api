@@ -16,6 +16,7 @@ router.get("/", checkApiKey, (_req, res) => {
       return {
         id: recipe.id,
         name: recipe.name,
+        description: recipe.description,
         postedDate: recipe.postedDate,
       };
     })
