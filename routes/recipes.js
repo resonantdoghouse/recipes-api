@@ -59,16 +59,20 @@ router.post("/", checkApiKey, (req, res) => {
     });
   } else {
     const recipes = loadRecipeData();
-    recipes.push({
+    const newRecipe = {
       id: uuidv4(),
       name: req.body.name,
       postedDate: Date.now(),
       ingredients: req.body.ingredients,
       instructions: req.body.instructions,
-    });
+    };
+    recipes.push(newRecipe);
 
     fs.writeFileSync("./data/recipes.json", JSON.stringify(recipes));
-    res.json(recipes);
+    res.status(201).json({
+      message: "recipe created",
+      recipe: newRecipe,
+    });
   }
 });
 
