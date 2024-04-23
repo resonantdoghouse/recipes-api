@@ -2,6 +2,7 @@
   {
     "id": "a06c2a71-8c5c-4f2d-ae34-af2d047e8259",
     "name": "Lentil Soup",
+    "description": "A hearty and comforting soup made with green or brown lentils, mixed with onions, carrots, celery, and seasoned with cumin, paprika, and bay leaf.",
     "postedDate": 1682899200000,
     "ingredients": [
       "1 cup green or brown lentils",
@@ -25,6 +26,7 @@
   {
     "id": "6f23a225-d306-42b8-81b0-3c46d47ebccc",
     "name": "Quinoa Stuffed Peppers",
+    "description": "Colorful bell peppers stuffed with a nutritious mixture of cooked quinoa, black beans, corn, onions, and spices, topped with optional cheese and baked until tender.",
     "postedDate": 1682985600000,
     "ingredients": [
       "4 bell peppers, any color",
@@ -52,6 +54,7 @@
   {
     "id": "5a11e0f6-7f63-487e-9d64-725589c865d3",
     "name": "Vegan Chickpea Curry",
+    "description": "A flavorful and creamy curry made with chickpeas, diced tomatoes, coconut milk, onions, garlic, ginger, and a blend of aromatic spices, served with spinach over rice or with naan bread.",
     "postedDate": 1683072000000,
     "ingredients": [
       "1 can chickpeas, drained and rinsed",
@@ -80,6 +83,7 @@
   {
     "id": "d8dcbfb5-66b6-42dd-9f0d-4507ee046c95",
     "name": "Cauliflower Fried Rice",
+    "description": "A healthier alternative to traditional fried rice, made with riced cauliflower, onions, garlic, peas, carrots, and seasoned with soy sauce and sesame oil, garnished with green onions.",
     "postedDate": 1683244800000,
     "ingredients": [
       "1 large head cauliflower, riced",
@@ -105,6 +109,7 @@
   {
     "id": "7b9e2625-97a3-4c3c-8e9c-0e74a97fc6f9",
     "name": "Vegetarian Fajitas",
+    "description": "Colorful and flavorful fajitas made with sliced bell peppers, red onions, zucchini, seasoned with a blend of spices, served with warm flour tortillas and optional toppings like sour cream, salsa, guacamole, and shredded cheese.",
     "postedDate": 1683331200000,
     "ingredients": [
       "2 bell peppers, sliced",
@@ -130,6 +135,7 @@
   {
     "id": "b127cf4c-e5e0-4fc1-b6a9-7a1030ceec89",
     "name": "Vegan Pesto Pasta",
+    "description": "A vibrant and flavorful pasta dish featuring a homemade vegan pesto sauce made with fresh basil, pine nuts, garlic, olive oil, and nutritional yeast, tossed with pasta and cherry tomatoes.",
     "postedDate": 1683417600000,
     "ingredients": [
       "12 oz pasta of choice",
@@ -152,6 +158,7 @@
   {
     "id": "0b7d60d0-1a2a-4f62-964a-9e1c3d486b6b",
     "name": "Vegan Tofu Stir Fry",
+    "description": "A quick and easy stir-fry featuring firm tofu, mixed vegetables, onions, garlic, and ginger, tossed in a savory soy-based sauce, garnished with chopped green onions.",
     "postedDate": 1684368000000,
     "ingredients": [
       "1 block firm tofu, drained and cubed",
@@ -180,6 +187,7 @@
   {
     "id": "8b60b3a5-8421-4f8b-9c4e-d0165c6c1415",
     "name": "Vegan Avocado Pasta",
+    "description": "A creamy and luscious pasta dish featuring a silky avocado sauce made with ripe avocados, garlic, basil, olive oil, and lemon juice, served with spaghetti and garnished with cherry tomatoes and fresh basil leaves.",
     "postedDate": 1684627200000,
     "ingredients": [
       "2 ripe avocados",
@@ -203,6 +211,7 @@
   {
     "id": "f15f8c0d-98c5-4a07-81e0-319e1be9f586",
     "name": "Chicken Alfredo Pasta",
+    "description": "A classic pasta dish featuring tender chicken pieces, fettuccine pasta, and a creamy Alfredo sauce made with heavy cream and Parmesan cheese, garnished with fresh parsley.",
     "postedDate": 1684713600000,
     "ingredients": [
       "2 chicken breasts, cubed",
@@ -227,6 +236,7 @@
   {
     "id": "e5df2c12-7523-44f2-97ea-dc9ff55f51d6",
     "name": "Beef Stir Fry",
+    "description": "A flavorful stir-fry featuring thinly sliced beef sirloin, mixed with onions, bell peppers, carrots, and a savory sauce, garnished with sesame seeds.",
     "postedDate": 1684886400000,
     "ingredients": [
       "500g beef sirloin, thinly sliced",
@@ -255,6 +265,7 @@
   {
     "id": "2ab2e683-21c3-4907-ae6f-3b1d5a8e40c9",
     "name": "Spicy Chicken Tacos",
+    "description": "Fiery and flavorful chicken tacos featuring strips of seasoned chicken breast, sautéed with onions, garlic, and jalapenos, served on warm tortillas with lettuce, tomato, shredded cheese, sour cream, and salsa.",
     "postedDate": 1684886400000,
     "ingredients": [
       "500g chicken breast, cut into strips",
@@ -284,6 +295,7 @@
   {
     "id": "6b64b3b0-128f-4ae6-9862-64f1b21eef98",
     "name": "Traditional Idli",
+    "description": "A South Indian staple, traditional idli is a steamed rice and lentil cake, served with sambar and coconut chutney.",
     "postedDate": 1684886400000,
     "ingredients": [
       "2 cups idli rice or parboiled rice",
@@ -306,6 +318,7 @@
   {
     "id": "3d9ec60b-0c89-47b4-afe3-d52bb71ad4b6",
     "name": "Very Spicy Chicken Curry",
+    "description": "An intensely flavorful chicken curry made with boneless chicken, onions, tomatoes, green chilies, garlic, ginger, yogurt, and an array of spices, served hot with rice or naan.",
     "postedDate": 1698105600000,
     "ingredients": [
       "500g boneless chicken, cut into small pieces",
@@ -338,6 +351,7 @@
   {
     "id": "9f4c0ce5-7b5d-40c3-b3ac-53a0073966e1",
     "name": "Scrambled Eggs with Spinach",
+    "description": "A nutritious and delicious breakfast dish featuring scrambled eggs cooked with fresh spinach, milk, and butter, optionally topped with grated cheese and sliced green onions.",
     "postedDate": 1698105600000,
     "ingredients": [
       "4 large eggs",
@@ -354,13 +368,14 @@
       "Add the chopped spinach to the skillet and sauté until it wilts and becomes tender.",
       "Pour the beaten egg mixture over the spinach and let it cook without stirring for a moment until the edges begin to set.",
       "Gently stir the eggs with a spatula, continuing to cook until they reach your desired level of doneness.",
-      "If desired, sprinkle grated cheese over the eggs and let it melt.",
-      "Serve the scrambled eggs hot, garnished with sliced green onions, and enjoy your nutritious breakfast!"
+      "If desired, sprinkle grated cheese over the eggs during the last minute of cooking.",
+      "Transfer the scrambled eggs to a plate, garnish with sliced green onions, and serve hot."
     ]
   },
   {
     "id": "b46a0e09-1996-4317-82f3-2b70f7b14d0e",
     "name": "Spicy Vegetarian Szechuan Noodles",
+    "description": "A fiery and aromatic dish featuring stir-fried egg or udon noodles with a colorful array of vegetables such as bell peppers, carrots, broccoli, and snap peas, tossed in a spicy Szechuan sauce with garlic, ginger, soy sauce, and red chili flakes.",
     "postedDate": 1698105600000,
     "ingredients": [
       "200g dry egg noodles or udon noodles",
@@ -392,6 +407,7 @@
   {
     "id": "4a39c7f0-10df-4976-844d-2f18ac4a502e",
     "name": "Jamaican Jerk Chicken",
+    "description": "A taste of the Caribbean, this dish features succulent chicken thighs or breasts marinated in a spicy blend of green onions, garlic, Scotch bonnet peppers, soy sauce, brown sugar, allspice, thyme, cinnamon, nutmeg, salt, black pepper, lime juice, and orange juice, grilled to perfection and served with a tangy citrus reduction.",
     "postedDate": 1698105600000,
     "ingredients": [
       "4 bone-in chicken thighs or 2 chicken breasts",
