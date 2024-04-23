@@ -48,6 +48,7 @@ router.post("/", checkApiKey, (req, res) => {
                 description: 'Add a new recipe',
                 schema: {
                     $name: 'Recipe Name',
+                    $description: 'Recipe Description',
                     $ingredients: ['ingredient 1', 'ingredient 2'],
                     $instructions: ['step 1', 'step 2']
                 }
