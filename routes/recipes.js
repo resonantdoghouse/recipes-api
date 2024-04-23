@@ -52,16 +52,22 @@ router.post("/", checkApiKey, (req, res) => {
                     $instructions: ['step 1', 'step 2']
                 }
         } */
-  if (!req.body.name || !req.body.ingredients || !req.body.instructions) {
+  if (
+    !req.body.name ||
+    !req.body.description ||
+    !req.body.ingredients ||
+    !req.body.instructions
+  ) {
     res.json({
       message:
-        "Please provide the following: name, ingredients and instructions",
+        "Please provide the following: name, description, ingredients and instructions",
     });
   } else {
     const recipes = loadRecipeData();
     const newRecipe = {
       id: uuidv4(),
       name: req.body.name,
+      description: req.body.description,
       postedDate: Date.now(),
       ingredients: req.body.ingredients,
       instructions: req.body.instructions,
