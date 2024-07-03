@@ -54,15 +54,9 @@ router.post("/", checkApiKey, (req, res) => {
                     $instructions: ['step 1', 'step 2']
                 }
         } */
-  if (
-    !req.body.name ||
-    !req.body.description ||
-    !req.body.ingredients ||
-    !req.body.instructions
-  ) {
+  if (!req.body.name || !req.body.description) {
     res.json({
-      message:
-        "Please provide the following: name, description, ingredients and instructions",
+      message: "Please provide the following: name, description",
     });
   } else {
     const recipes = loadRecipeData();
@@ -71,8 +65,8 @@ router.post("/", checkApiKey, (req, res) => {
       name: req.body.name,
       description: req.body.description,
       postedDate: Date.now(),
-      ingredients: req.body.ingredients,
-      instructions: req.body.instructions,
+      ingredients: req.body.ingredients || [],
+      instructions: req.body.instructions || [],
     };
     recipes.push(newRecipe);
 
